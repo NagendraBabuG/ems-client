@@ -1,0 +1,68 @@
+.AddTask{
+  justify-content: center;
+  text-align: center;
+}
+.addForm{
+  max-width: 300px;
+  justify-content: center;
+  margin: auto;
+}
+form{
+  width: 300px;
+  max-width: 300px;
+  margin: auto;
+}
+label{
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+input{
+  margin: 15px 0px;
+  padding-left:  15px;
+  width: 100%;
+  font-size: 22.5px;
+  height: 38px;
+  border: 1px solid #1B1C21;
+  border-radius: 10px;
+}
+label::after {
+  content: "*";
+  width: 100%;
+  margin-right: 1.5em;
+  color: #F21B3F;
+}
+select{
+  margin: 15px 0px;
+  width: 300px;
+  font-size: 22.5px;
+  padding-left:  15px;
+  height: 38px;
+  border-radius: 10px;
+  border: 1px solid #1B1C21;
+}
+.buttonAdd{
+  margin: 1rem auto;
+  justify-content: center;
+  background-color:greenyellow;
+  color: black;
+  padding: 0.5rem;
+  text-transform: capitalize;
+  font-size: medium;
+}
+.buttonAdd:hover{
+  background-color: greenyellow;
+  color: black;
+}
+.addtask{
+  margin: auto;
+}
+.notasks{
+  margin: auto;
+  color: black;
+  width: 100%;
+}
+tbody{
+  justify-content: center;
+  overflow-y: scroll;
+  max-width: 250px;
+}
